@@ -1,0 +1,104 @@
+/* Configurações gerais de fonte e fundo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal (o "cartão" branco) */
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.6);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo do campo de texto */
+input {
+    width: 70%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007bff;
+}
+
+/* Estilo do botão */
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    /* font-weight: bold; */
+    transition: background 0.3s;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Quando o botão é clicado */
+button:active {
+    /* Reduz o tamanho para 0.95 (95% do original) */
+    transform: scale(1.10);
+    
+    /* Diminui a sombra para parecer que encostou no papel */
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    
+    /* Escurece um pouquinho mais o verde */
+    background-color: #1e8449;
+}
+
+button:hover {
+    background-color: #27ae60;
+    transform: scale(1.05);
+}
+
+/* Área de resultados */
+#resultado {
+    margin-top: 20px;
+    text-align: left;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#resultado p {
+    margin: 8px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+#resultado span {
+    font-weight: normal;
+    color: #000;
+}
+
+footer {
+  background-color: #003333;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
