@@ -1,4 +1,3 @@
-/* Configurações gerais de fonte e fundo */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #7fffd4;
@@ -9,7 +8,6 @@ body {
     margin: 0;
 }
 
-/* Container principal (o "cartão" branco) */
 .container {
     background-color: #fff;
     padding: 2rem;
@@ -26,8 +24,6 @@ h2 {
     color: #333;
     margin-bottom: 1.5rem;
 }
-
-/* Estilo do campo de texto */
 input {
     width: 70%;
     padding: 12px;
@@ -41,8 +37,6 @@ input {
 input:focus {
     border-color: #007bff;
 }
-
-/* Estilo do botão */
 button {
     padding: 12px 20px;
     background-color: #007bff;
@@ -50,20 +44,13 @@ button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-    /* font-weight: bold; */
     transition: background 0.3s;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Quando o botão é clicado */
 button:active {
-    /* Reduz o tamanho para 0.95 (95% do original) */
     transform: scale(1.10);
-    
-    /* Diminui a sombra para parecer que encostou no papel */
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
-    
-    /* Escurece um pouquinho mais o verde */
     background-color: #1e8449;
 }
 
@@ -72,7 +59,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* Área de resultados */
 #resultado {
     margin-top: 20px;
     text-align: left;
@@ -101,4 +87,5 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+
 }
